@@ -1151,7 +1151,6 @@ header {
   position: relative;
   width: 728px;
   height: 90px;
-  margin: 40px auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1262,7 +1261,7 @@ header {
 }
 .anuncio-iframe {
   width: 728px;
-  height: 130px;
+  height: 90px;
   border: none;
   display: block;
   background: transparent;
