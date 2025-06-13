@@ -1,4 +1,4 @@
-/* ===== ESTILOS BASE ===== */
+
 * {
     margin: 0;
     padding: 0;
@@ -14,7 +14,6 @@ body {
     width: 100%;
 }
 
-/* ===== HEADER Y NAVEGACIÓN ===== */
 header {
     position: relative;
     width: 100%;
@@ -26,7 +25,6 @@ header {
     padding: 0 20px;
 }
 
-/* Header específico para la página de contacto */
 .header-contact {
     position: fixed;
     top: 0;
@@ -72,7 +70,6 @@ header {
     color: #fff;
 }
 
-/* Navegación */
 .nav {
     position: fixed;
     top: 0;
@@ -135,7 +132,6 @@ header {
     font-size: 2rem;
 }
 
-/* Logo y texto del header */
 .logo-menu, .logo-menu-us {
     position: fixed;
     top: 0;
@@ -163,7 +159,6 @@ header {
     height: 32px;
 }
 
-/* ===== HERO SECTION ===== */
 .hero {
     position: relative;
     height: 100vh;
@@ -236,7 +231,6 @@ header {
     margin: 5px;
 }
 
-/* ===== SECCIONES PRINCIPALES ===== */
 .section {
     padding: 4rem 2rem;
     text-align: start;
@@ -249,7 +243,6 @@ header {
     margin-bottom: 1rem;
 }
 
-/* ===== BOTONES ===== */
 .btn, .open-btn {
     background: black;
     color: white;
@@ -267,7 +260,6 @@ header {
     background: #494949;
 }
 
-/* ===== SECCIÓN DE VIDEO ===== */
 .video-section {
     margin-top: 2rem;
     width: 100%;
@@ -309,7 +301,6 @@ header {
     height: 100%;
 }
 
-/* ===== GRID DE ENLACES ===== */
 .grid {
     display: flex;
     justify-content: center;
@@ -358,7 +349,6 @@ header {
     pointer-events: none;
 }
 
-/* ===== SECCIÓN DE CLIENTES ===== */
 .clients {
     display: flex;
     justify-content: center;
@@ -432,7 +422,6 @@ header {
     color: #D3D3D3;
 }
 
-/* ===== SECCIÓN DE SERVICIOS ===== */
 .services {
     max-width: 1200px;
     margin: 40px auto;
@@ -493,7 +482,6 @@ header {
     box-sizing: border-box;
 }
 
-/* ===== SECCIÓN DE GALERÍA ===== */
 .brands {
     background: #fff;
     padding: 48px 16px;
@@ -665,7 +653,6 @@ header {
     right: 20px;
 }
 
-/* ===== SECCIÓN DE CONTACTO ===== */
 .main-content {
     max-width: 1200px;
     margin: 48px auto 0 auto;
@@ -783,7 +770,6 @@ header {
     background: #333;
 }
 
-/* ===== MODALES ===== */
 .css-modal {
     position: fixed;
     top: 0; left: 0; right: 0; bottom: 0;
@@ -854,7 +840,6 @@ header {
     color: #ffffff;
 }
 
-/* ===== FOOTER ===== */
 .footer {
     display: flex;
     justify-content: space-between;
@@ -893,7 +878,6 @@ header {
     opacity: 0.8;
 }
 
-/* ===== MEDIA QUERIES ===== */
 @media (max-width: 480px) {
     .hero {
         height: 100vh;
@@ -1146,7 +1130,6 @@ header {
     }
 }
 
-/* ===== ANUNCIO RESPONSIVE FINAL ===== */
 .anuncio-responsive-bg {
   position: relative;
   width: 728px;
@@ -1246,10 +1229,8 @@ header {
     width: 300px;
     height: 600px;
 }
-/* Fin anuncio responsive final */
 }
 
-/* ===== CORRECCIÓN IFRAME ANUNCIO ===== */
 .anuncio-iframe-container {
   display: flex;
   justify-content: center;
